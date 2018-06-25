@@ -12,6 +12,7 @@ import {
     Button
 } from 'antd-mobile'
 
+import connect from 'react-redux'
 import Logo from '../../components/logo/logo'
 
 export default class Login extends Component {

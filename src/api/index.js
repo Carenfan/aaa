@@ -9,3 +9,5 @@ import ajax from './ajax'
 export const reqLogin=(username,password)=>ajax('./login',{username,password},'POST')
 
 export const reqRegister=({username,password,type})=>ajax('/register',{username,password,type},'POST')
+// 更新用户信息
+export const reqUpdateUser = (user) => ajax('/update', user, 'POST')
