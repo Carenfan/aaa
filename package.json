@@ -1,0 +1,27 @@
+{
+  "name": "gzhipin_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carenfan/Carenfan-0228.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carenfan/Carenfan-0228/issues"
+  },
+  "homepage": "https://github.com/Carenfan/Carenfan-0228#readme",
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "mongoose": "^5.1.6",
+    "path": "^0.12.7"
+  }
+}
